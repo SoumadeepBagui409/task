@@ -12,7 +12,7 @@ To run this project run
 ```bash
 . make the clone of the project
 . run "npm install" from the root directory
-   -> it will download aal the dependencies required
+   -> it will download all the dependencies required
 . run npm start or node index.js
 . website will be hosted at localhost:3000     
 ```
