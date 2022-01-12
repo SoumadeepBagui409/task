@@ -17,3 +17,4 @@ To run this project run
 . website will be hosted at localhost:3000     
 ```
 
+![picture!](public\img\picture1.jpg)
