@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Assignment1</title>
+</head>
+<body>
+    
+    <section class="box">
+        <div class="forms">
+        <form action="/newName" method="POST"> 
+            <%if(!display){%>
+            <h1><label for="username">Username</label></h1>
+                <br>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+            <button type="submit">click</button>
+
+
+            <%}else{%>
+
+                
+                <h3>uniqueId: <%=unqiue_Id%></h3>
+                <br>
+                <h3>name: <%=name%></h3>
+                <br>
+                <h3>Date: <%=date%></h3>
+                <br>
+                <h3>Time: <%=time%></h3> 
+                <br>
+                <br>   
+                <a href="/">go back</a>
+            <%}%>
+        </form>
+        </div>
+        
+    </section>
+</body>
+</html>
